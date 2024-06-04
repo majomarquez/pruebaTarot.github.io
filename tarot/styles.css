@@ -1,0 +1,53 @@
+ html,
+body { 
+    align-items:start;
+    font-family: 'Patrick Hand SC', cursive;
+    width: 100%;
+    min-height: 100%;
+}
+html body section button {
+    padding: 5px 8px;
+    margin: 3px 0;
+}
+html body h1 {
+    margin-left: 3%;
+}
+
+html body section {
+    flex-direction: column;
+    margin-bottom: 0;
+}
+ 
+/* Estilo para las cartas */
+.card {
+    position: absolute;
+    width: 88px;
+    height: 154px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    /* Agregar transición para suavizar el efecto */
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    transform-style: preserve-3d;
+    /* Conserva la rotación 3D de la carta */
+    font-size: 1px;
+    border: solid 3px #41403e;
+    outline: none;
+    box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, 0.2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+.card-container {
+     margin-top: -5px;  
+ 
+}
+
+input {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border: none;
+    text-align: center;
+    font-size: x-small;
+} 
