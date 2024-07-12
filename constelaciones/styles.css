@@ -18,21 +18,19 @@ html body section {
 /* Estilo para las cartas */
 .card {
     position: absolute;
-    width: 95px;
-    height: 90px;
+    width: 62px;
+    height: 99px;
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-    /* Agregar transición para suavizar el efecto */
-    background-size: 88%;
+    background-size: 76%;
     background-position: top;
     background-repeat: no-repeat;
     transform-style: preserve-3d;
-    /* Conserva la rotación 3D de la carta */
     font-size: 1px;
-    border: solid 7px #41403e;
+    /* border: solid 4px #41403e; */
     outline: none;
-    box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, 0.2);
-    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    /* box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, 0.2); */
+    /* border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px; */
 }
 /* GRilla */
 .container-grid {
@@ -42,6 +40,7 @@ html body section {
     background-color: #f6f6f615;
     flex-direction: column;
     color: #7e7e7e;
+    border: 5px solid;
 }
 
 .container-grid p {
